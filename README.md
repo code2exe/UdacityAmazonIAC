@@ -1,5 +1,5 @@
 # UdacityAmazonIAC
-A Cloud Formation Script to automate deployment of infrastructure for a high-availability WebApp
+A Cloud Formation Script to automate deployment of infrastructure for a high-availability Udagram web app
 
 ## Architecture Diagram (LucidChart)
 <img src="https://github.com/code2exe/UdacityAmazonIAC/blob/master/Udagram%20Architecture.png" width="100%">
