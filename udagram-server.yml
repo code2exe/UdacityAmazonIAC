@@ -107,7 +107,7 @@ Resources:
       BlockDeviceMappings:
       - DeviceName: "/dev/sdk"
         Ebs:
-          VolumeSize: "10"
+          VolumeSize: '10'
 
   WebAppGroup:
     Type: AWS::AutoScaling::AutoScalingGroup
@@ -117,7 +117,7 @@ Resources:
       LaunchConfigurationName:
         Ref: WebAppLaunchConfig
       MinSize: "4"
-      MaxSize: "8"
+      MaxSize: "6"
       DesiredCapacity: "4"
       TargetGroupARNs:
       - Ref: WebAppTargetGroup
