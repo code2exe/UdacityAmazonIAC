@@ -1,0 +1,17 @@
+[   {
+    "ParameterKey": "EnvironmentName",
+    "ParameterValue": "UdagramApp"
+    },
+    {
+        "ParameterKey": "BastionSourceIP",
+        "ParameterValue": "197.211.32.0/19"
+    },
+    {
+        "ParameterKey": "BastionBucketSSH",
+        "ParameterValue": "udakey"
+    },
+    {
+        "ParameterKey": "BastionKeySSH",
+        "ParameterValue": "udagram"
+    }
+]
