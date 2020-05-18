@@ -172,8 +172,8 @@ Resources:
 
 Outputs:
           #Bonus points for useful outputs!
-    WebURL:
-        Description: Public URL of Load Balancer
-        Value: !Join ["", ["http://", !GetAtt WebAppLB.DNSName]]
+    Website:
+        Description: The Public DNS of the load Balancer
+        Value: !Join ["", ["http://", !GetAtt [WebAppLB, DNSName]]]
         Export:
-          Name: "URL"
+          Name: !Sub ${EnvironmentName}-ELB-DNS
