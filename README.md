@@ -2,7 +2,7 @@
 A Cloud Formation Script to automate deployment of infrastructure for a high-availability WebApp
 
 ## Architecture Diagram (LucidChart)
-![Udagram](C:\Users\Henry\Desktop\Udacity Nanodegree\UdacityAmazonIAC\Udagram Architecture.png)
+<img src="https://github.com/code2exe/UdacityAmazonIAC/blob/master/Udagram%20Architecture.png" width="100%">
 
 ### Steps to deploy (as I did on Windows Powershell):
 
