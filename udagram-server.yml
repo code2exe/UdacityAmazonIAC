@@ -103,7 +103,7 @@ Resources:
       IamInstanceProfile: !Ref AppInstanceProfile
       SecurityGroups: 
       - Ref: WebServerSecGroup
-      InstanceType: t3.medium
+      InstanceType: t3.small
       BlockDeviceMappings:
       - DeviceName: "/dev/sdk"
         Ebs:
