@@ -94,7 +94,7 @@ Resources:
       SubnetId:
         Fn::ImportValue: !Sub "${EnvironmentName}-PUB1-SN"
       ImageId: ami-07b4f3c02c7f83d59
-      InstanceType: t3.small
+      InstanceType: t3.micro
       KeyName: !Sub ${BastionKeySSH}
 
   EIP0:
@@ -132,7 +132,7 @@ Resources:
           chmod 400 ${BastionKeySSH}.pem
       IamInstanceProfile: !Ref BastionIamInstanceProfile
       ImageId: ami-07b4f3c02c7f83d59
-      InstanceType: t3.small
+      InstanceType: t3.micro
       KeyName: !Sub ${BastionKeySSH}
       SecurityGroupIds:
         - Ref: BastionSecurityGroup
